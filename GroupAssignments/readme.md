@@ -8,13 +8,11 @@ This study focuses on Los Angeles County, one of the most populated counties in 
 
 We will use the following data sources for our analysis:
  
-  **1. [SWITRS Collision Data](https://tims.berkeley.edu/summary.php)**
-  - Data on traffic collisions across Los Angeles County.
-
-  **2. [American Community Survey (ACS) Census Data (2019–2023)](https://www.census.gov/programs-surveys/acs)**
+  **1. [American Community Survey (ACS) Census Data (2019–2023)](https://www.census.gov/programs-surveys/acs)**
    - Demographic variables include race/ethnicity, median household income, and age.
 
-  **3. [SCAG High Injury Network](https://transportation-safety-scag.hub.arcgis.com/pages/high-injury-network)** 
+  **2. [SCAG High Injury Network](https://transportation-safety-scag.hub.arcgis.com/pages/high-injury-network)** 
+   - Extracting HIN for the City of Los Angeles
 
 Our analysis will involve combining combining/overlapping the HIN data with demographic data to explore the relationships between social demographics and collision vulnerability. We plan to create the following visualizations:
 - A map overlaying HIN data and demographic characteristics to identify high-risk populations.
@@ -22,6 +20,7 @@ Our analysis will involve combining combining/overlapping the HIN data with demo
   - Median Household Income
   - Age
 
+Once we overlay both datasets, we will be able to identify the top 10 census tracts that have the most miles of HIN segments within thier corresponding boundaries. We will conduct a comparative analysis of these census tracts to determine if there are any demographic commonalities amongst the census tracts.
 
 From this research, we anticipate developing an understanding of how demographic factors correlate with traffic collisions, highlighting the most affected areas and populations. We will also gain insights into the spatial and demographic patterns of collision vulnerability in Los Angeles County. Specifically, as race/ethnicity may emerge as a primary factor influencing collision risk, and vulnerable populations, such as those with lower incomes or older adults, are likely to be disproportionately impacted by traffic violence. Overall, this research will deepen our spatial understanding of Los Angeles County, and inform us on areas to promote strategies to make transportation systems safer and more equitable for all.
 
